@@ -1,0 +1,160 @@
+2018/09/14 09:52:09 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.vehicle_id' in 'on clause'. The SQL statement executed was: SELECT `t`.`driver_id` AS `t0_c0`, `t`.`customer_id` AS `t0_c1`, `t`.`name` AS `t0_c2`, `t`.`password` AS `t0_c3`, `t`.`logistics_id` AS `t0_c4`, `t`.`phone` AS `t0_c5`, `t`.`remark` AS `t0_c6`, `t`.`status` AS `t0_c7`, `t`.`status_time` AS `t0_c8`, `t`.`effect_time` AS `t0_c9`, `t`.`create_user_id` AS `t0_c10`, `t`.`create_time` AS `t0_c11`, `t`.`update_user_id` AS `t0_c12`, `t`.`update_time` AS `t0_c13`, `logisticsCompany`.`logistics_id` AS `t1_c0`, `logisticsCompany`.`name` AS `t1_c1`, `logisticsCompany`.`out_identity` AS `t1_c2`, `logisticsCompany`.`out_status` AS `t1_c3`, `logisticsCompany`.`tax_code` AS `t1_c4`, `logisticsCompany`.`phone` AS `t1_c5`, `logisticsCompany`.`address` AS `t1_c6`, `logisticsCompany`.`status` AS `t1_c7`, `logisticsCompany`.`status_time` AS `t1_c8`, `logisticsCompany`.`effect_time` AS `t1_c9`, `logisticsCompany`.`remark` AS `t1_c10`, `logisticsCompany`.`create_user_id` AS `t1_c11`, `logisticsCompany`.`create_time` AS `t1_c12`, `logisticsCompany`.`update_user_id` AS `t1_c13`, `logisticsCompany`.`update_time` AS `t1_c14`, `vehicles`.`vehicle_id` AS `t2_c0`, `vehicles`.`logistics_id` AS `t2_c1`, `vehicles`.`number` AS `t2_c2`, `vehicles`.`model` AS `t2_c3`, `vehicles`.`optor` AS `t2_c4`, `vehicles`.`capacity` AS `t2_c5`, `vehicles`.`start_date` AS `t2_c6`, `vehicles`.`end_date` AS `t2_c7`, `vehicles`.`remark` AS `t2_c8`, `vehicles`.`status` AS `t2_c9`, `vehicles`.`status_time` AS `t2_c10`, `vehicles`.`effect_time` AS `t2_c11`, `vehicles`.`create_user_id` AS `t2_c12`, `vehicles`.`create_time` AS `t2_c13`, `vehicles`.`update_user_id` AS `t2_c14`, `vehicles`.`update_time` AS `t2_c15`, `photos`.`id` AS `t3_c0`, `photos`.`base_id` AS `t3_c1`, `photos`.`name` AS `t3_c2`, `photos`.`type` AS `t3_c3`, `photos`.`out_id` AS `t3_c4`, `photos`.`file_path` AS `t3_c5`, `photos`.`file_url` AS `t3_c6`, `photos`.`status` AS `t3_c7`, `photos`.`remark` AS `t3_c8`, `photos`.`create_user_id` AS `t3_c9`, `photos`.`create_time` AS `t3_c10`, `photos`.`update_user_id` AS `t3_c11`, `photos`.`update_time` AS `t3_c12` FROM `t_driver` `t`  LEFT OUTER JOIN `t_logistics_company` `logisticsCompany` ON (`t`.`logistics_id`=`logisticsCompany`.`logistics_id`) LEFT OUTER JOIN `t_driver_vehicle_relation` `vehicles_vehicles` ON (`t`.`driver_id`=`vehicles_vehicles`.`driver_id`) LEFT OUTER JOIN `t_vehicle` `vehicles` ON (`vehicles`.`vehicle_id`=`vehicles_vehicles`.`vehicle_id`) LEFT OUTER JOIN `t_photo_attachment` `photos` ON (`photos`.`base_id`=`t`.`vehicle_id`) AND (photos.status=1 and photos.type=1) WHERE (t.customer_id=1).
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (41)
+2018/09/14 09:52:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.vehicle_id' in 'on clause'. The SQL statement executed was: SELECT `t`.`driver_id` AS `t0_c0`, `t`.`customer_id` AS `t0_c1`, `t`.`name` AS `t0_c2`, `t`.`password` AS `t0_c3`, `t`.`logistics_id` AS `t0_c4`, `t`.`phone` AS `t0_c5`, `t`.`remark` AS `t0_c6`, `t`.`status` AS `t0_c7`, `t`.`status_time` AS `t0_c8`, `t`.`effect_time` AS `t0_c9`, `t`.`create_user_id` AS `t0_c10`, `t`.`create_time` AS `t0_c11`, `t`.`update_user_id` AS `t0_c12`, `t`.`update_time` AS `t0_c13`, `logisticsCompany`.`logistics_id` AS `t1_c0`, `logisticsCompany`.`name` AS `t1_c1`, `logisticsCompany`.`out_identity` AS `t1_c2`, `logisticsCompany`.`out_status` AS `t1_c3`, `logisticsCompany`.`tax_code` AS `t1_c4`, `logisticsCompany`.`phone` AS `t1_c5`, `logisticsCompany`.`address` AS `t1_c6`, `logisticsCompany`.`status` AS `t1_c7`, `logisticsCompany`.`status_time` AS `t1_c8`, `logisticsCompany`.`effect_time` AS `t1_c9`, `logisticsCompany`.`remark` AS `t1_c10`, `logisticsCompany`.`create_user_id` AS `t1_c11`, `logisticsCompany`.`create_time` AS `t1_c12`, `logisticsCompany`.`update_user_id` AS `t1_c13`, `logisticsCompany`.`update_time` AS `t1_c14`, `vehicles`.`vehicle_id` AS `t2_c0`, `vehicles`.`logistics_id` AS `t2_c1`, `vehicles`.`number` AS `t2_c2`, `vehicles`.`model` AS `t2_c3`, `vehicles`.`optor` AS `t2_c4`, `vehicles`.`capacity` AS `t2_c5`, `vehicles`.`start_date` AS `t2_c6`, `vehicles`.`end_date` AS `t2_c7`, `vehicles`.`remark` AS `t2_c8`, `vehicles`.`status` AS `t2_c9`, `vehicles`.`status_time` AS `t2_c10`, `vehicles`.`effect_time` AS `t2_c11`, `vehicles`.`create_user_id` AS `t2_c12`, `vehicles`.`create_time` AS `t2_c13`, `vehicles`.`update_user_id` AS `t2_c14`, `vehicles`.`update_time` AS `t2_c15`, `photos`.`id` AS `t3_c0`, `photos`.`base_id` AS `t3_c1`, `photos`.`name` AS `t3_c2`, `photos`.`type` AS `t3_c3`, `photos`.`out_id` AS `t3_c4`, `photos`.`file_path` AS `t3_c5`, `photos`.`file_url` AS `t3_c6`, `photos`.`status` AS `t3_c7`, `photos`.`remark` AS `t3_c8`, `photos`.`create_user_id` AS `t3_c9`, `photos`.`create_time` AS `t3_c10`, `photos`.`update_user_id` AS `t3_c11`, `photos`.`update_time` AS `t3_c12` FROM `t_driver` `t`  LEFT OUTER JOIN `t_logistics_company` `logisticsCompany` ON (`t`.`logistics_id`=`logisticsCompany`.`logistics_id`) LEFT OUTER JOIN `t_driver_vehicle_relation` `vehicles_vehicles` ON (`t`.`driver_id`=`vehicles_vehicles`.`driver_id`) LEFT OUTER JOIN `t_vehicle` `vehicles` ON (`vehicles`.`vehicle_id`=`vehicles_vehicles`.`vehicle_id`) LEFT OUTER JOIN `t_photo_attachment` `photos` ON (`photos`.`base_id`=`t`.`vehicle_id`) AND (photos.status=1 and photos.type=1) WHERE (t.customer_id=1).
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (41)
+2018/09/14 09:53:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.vehicle_id' in 'on clause'. The SQL statement executed was: SELECT `t`.`driver_id` AS `t0_c0`, `t`.`customer_id` AS `t0_c1`, `t`.`name` AS `t0_c2`, `t`.`password` AS `t0_c3`, `t`.`logistics_id` AS `t0_c4`, `t`.`phone` AS `t0_c5`, `t`.`remark` AS `t0_c6`, `t`.`status` AS `t0_c7`, `t`.`status_time` AS `t0_c8`, `t`.`effect_time` AS `t0_c9`, `t`.`create_user_id` AS `t0_c10`, `t`.`create_time` AS `t0_c11`, `t`.`update_user_id` AS `t0_c12`, `t`.`update_time` AS `t0_c13`, `logisticsCompany`.`logistics_id` AS `t1_c0`, `logisticsCompany`.`name` AS `t1_c1`, `logisticsCompany`.`out_identity` AS `t1_c2`, `logisticsCompany`.`out_status` AS `t1_c3`, `logisticsCompany`.`tax_code` AS `t1_c4`, `logisticsCompany`.`phone` AS `t1_c5`, `logisticsCompany`.`address` AS `t1_c6`, `logisticsCompany`.`status` AS `t1_c7`, `logisticsCompany`.`status_time` AS `t1_c8`, `logisticsCompany`.`effect_time` AS `t1_c9`, `logisticsCompany`.`remark` AS `t1_c10`, `logisticsCompany`.`create_user_id` AS `t1_c11`, `logisticsCompany`.`create_time` AS `t1_c12`, `logisticsCompany`.`update_user_id` AS `t1_c13`, `logisticsCompany`.`update_time` AS `t1_c14`, `vehicles`.`vehicle_id` AS `t2_c0`, `vehicles`.`logistics_id` AS `t2_c1`, `vehicles`.`number` AS `t2_c2`, `vehicles`.`model` AS `t2_c3`, `vehicles`.`optor` AS `t2_c4`, `vehicles`.`capacity` AS `t2_c5`, `vehicles`.`start_date` AS `t2_c6`, `vehicles`.`end_date` AS `t2_c7`, `vehicles`.`remark` AS `t2_c8`, `vehicles`.`status` AS `t2_c9`, `vehicles`.`status_time` AS `t2_c10`, `vehicles`.`effect_time` AS `t2_c11`, `vehicles`.`create_user_id` AS `t2_c12`, `vehicles`.`create_time` AS `t2_c13`, `vehicles`.`update_user_id` AS `t2_c14`, `vehicles`.`update_time` AS `t2_c15`, `photos`.`id` AS `t3_c0`, `photos`.`base_id` AS `t3_c1`, `photos`.`name` AS `t3_c2`, `photos`.`type` AS `t3_c3`, `photos`.`out_id` AS `t3_c4`, `photos`.`file_path` AS `t3_c5`, `photos`.`file_url` AS `t3_c6`, `photos`.`status` AS `t3_c7`, `photos`.`remark` AS `t3_c8`, `photos`.`create_user_id` AS `t3_c9`, `photos`.`create_time` AS `t3_c10`, `photos`.`update_user_id` AS `t3_c11`, `photos`.`update_time` AS `t3_c12` FROM `t_driver` `t`  LEFT OUTER JOIN `t_logistics_company` `logisticsCompany` ON (`t`.`logistics_id`=`logisticsCompany`.`logistics_id`) LEFT OUTER JOIN `t_driver_vehicle_relation` `vehicles_vehicles` ON (`t`.`driver_id`=`vehicles_vehicles`.`driver_id`) LEFT OUTER JOIN `t_vehicle` `vehicles` ON (`vehicles`.`vehicle_id`=`vehicles_vehicles`.`vehicle_id`) LEFT OUTER JOIN `t_photo_attachment` `photos` ON (`photos`.`base_id`=`t`.`vehicle_id`) AND (photos.status=1 and photos.type=1) WHERE (t.customer_id=1).
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (41)
+2018/09/14 09:58:40 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Driver\DriverDTO.php:119) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): DriverController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): DriverController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): DriverController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): DriverController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): DriverController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/driver/detail?driver_id=1
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\DriverController.php (230)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/14 09:59:53 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Driver\DriverDTO.php:119) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): DriverController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): DriverController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): DriverController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): DriverController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): DriverController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/driver/detail?driver_id=1
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\DriverController.php (230)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/14 10:03:08 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Driver\DriverDTO.php:119) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): DriverController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): DriverController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): DriverController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): DriverController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): DriverController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/driver/detail?driver_id=1
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\DriverController.php (230)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/14 10:09:52 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Driver\DriverDTO.php:142) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): DriverController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): DriverController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): DriverController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): DriverController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): DriverController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/driver/detail?driver_id=1
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\DriverController.php (230)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/14 10:47:51 [error] [php] include(LogisticsQuotaLimitDTO.php): failed to open stream: No such file or directory (E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\ModBase.php:557)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(143): spl_autoload_call()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionDetail()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/detail
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php (143)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/14 10:47:52 [error] [php] include(LogisticsQuotaLimitDTO.php): failed to open stream: No such file or directory (E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\ModBase.php:557)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(143): spl_autoload_call()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionDetail()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/detail
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php (143)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/14 11:13:41 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "admin/comon/DropDownListMap"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('admin/comon/Dro...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/comon/DropDownListMap
+---
+2018/09/14 11:13:58 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "admin/comon/dropDownListMap"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('admin/comon/dro...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/comon/dropDownListMap
+---
+2018/09/14 18:07:32 [error] [exception.ddd\Infrastructure\error\ZException] [L:32][app\ddd\Logistics\Application\LogisticsCompany\LogisticsCompanyService.getLogisticsCompany][0] 参数有误
+REQUEST_URI=/webAPI/logisticscompany/save?logistics_id=1&status=0
+---
+2018/09/14 18:25:49 [error] [exception.ddd\Infrastructure\error\ZException] [L:32][app\ddd\Logistics\Application\LogisticsCompany\LogisticsCompanyService.getLogisticsCompany][0] 参数有误
+REQUEST_URI=/webAPI/logisticsdailyQuotaLog/GetByLogisticsId?logistics_id=1
+---
+2018/09/14 18:26:07 [error] [exception.ddd\Infrastructure\error\ZException] [L:32][app\ddd\Logistics\Application\LogisticsCompany\LogisticsCompanyService.getLogisticsCompany][0] 参数有误
+REQUEST_URI=/webAPI/logisticsdailyQuotaLog/GetByLogisticsId?logistics_id=1
+---
+2018/09/14 18:30:43 [error] [exception.ddd\Infrastructure\error\ZException] [L:32][app\ddd\Logistics\Application\LogisticsCompany\LogisticsCompanyService.getLogisticsCompany][0] 参数有误
+REQUEST_URI=/webAPI/logisticsdailyQuotaLog/GetByLogisticsId?logistics_id=1
+---
+2018/09/14 18:30:44 [error] [exception.ddd\Infrastructure\error\ZException] [L:32][app\ddd\Logistics\Application\LogisticsCompany\LogisticsCompanyService.getLogisticsCompany][0] 参数有误
+REQUEST_URI=/webAPI/logisticsdailyQuotaLog/GetByLogisticsId?logistics_id=1
+---
+2018/09/14 18:30:44 [error] [exception.ddd\Infrastructure\error\ZException] [L:32][app\ddd\Logistics\Application\LogisticsCompany\LogisticsCompanyService.getLogisticsCompany][0] 参数有误
+REQUEST_URI=/webAPI/logisticsdailyQuotaLog/GetByLogisticsId?logistics_id=1
+---

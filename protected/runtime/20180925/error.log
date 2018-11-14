@@ -1,0 +1,1662 @@
+2018/09/25 09:59:20 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/font-awesome-4.4.0/css/font-awesome.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/font-aw...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/font-awesome-4.4.0/css/font-awesome.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:20 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/font-awesome-4.4.0/css/font-awesome.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/font-aw...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/font-awesome-4.4.0/css/font-awesome.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:21 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:21 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:21 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:21 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:21 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:21 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:21 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:21 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:21 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/ionicons-2.0.1/css/ionicons.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/ionicon...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/ionicons-2.0.1/css/ionicons.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:21 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/ionicons-2.0.1/css/ionicons.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/ionicon...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/ionicons-2.0.1/css/ionicons.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:21 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/style.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/style.css?key=20180112
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:21 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/style.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/style.css?key=20180112
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "icon/font/iconfont.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('icon/font/iconf...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/icon/font/iconfont.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "icon/font/iconfont.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('icon/font/iconf...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/icon/font/iconfont.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 09:59:58 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 09:59:58 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:00:06 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:00:06 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:13:05 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:13:05 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:16 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:16 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:23 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:23 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:26 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:26 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:27 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:27 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:33 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:33 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:34 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:34 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:34 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:34 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:34 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:15:34 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:16:20 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:16:20 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:16:21 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:16:21 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:16:21 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:16:21 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:16:21 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:16:21 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:16:21 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:16:21 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:17:59 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:17:59 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:19:35 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:19:35 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:19:35 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:19:35 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:19:35 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:19:35 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:19:37 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:19:37 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:20:27 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:20:27 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:21:50 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:21:50 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:36:21 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 10:36:21 [error] [php] A non-numeric value encountered (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php:177)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CModel.php(159): CInlineValidator->validate()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(31): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit->validate()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php(67): ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService->createLogisticsQuotaLimit()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaLimitController.php(187): app\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService->create()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaLimitController->actionAdd()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsQuotaLimitController->runAction()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsQuotaLimitController->filterAccessControl()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsQuotaLimitController->runActionWithFilters()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsQuotaLimitController->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#16 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsQuotaLimit/add
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimit.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Domain\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Quota\Application\LogisticsQuotaLimit\LogisticsQuotaLimitService.php (67)
+2018/09/25 14:16:11 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/font-awesome-4.4.0/css/font-awesome.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/font-aw...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/font-awesome-4.4.0/css/font-awesome.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:11 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/font-awesome-4.4.0/css/font-awesome.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/font-aw...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/font-awesome-4.4.0/css/font-awesome.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:11 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "icon/font/iconfont.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('icon/font/iconf...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/icon/font/iconfont.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:11 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "icon/font/iconfont.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('icon/font/iconf...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/icon/font/iconfont.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:11 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/ionicons-2.0.1/css/ionicons.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/ionicon...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/ionicons-2.0.1/css/ionicons.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:11 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/ionicons-2.0.1/css/ionicons.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/ionicon...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/ionicons-2.0.1/css/ionicons.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:12 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/style.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/style.css?key=20180112
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:12 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/style.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/style.css?key=20180112
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:12 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:12 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:12 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:12 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:12 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:12 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:12 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:12 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:13 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:13 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:13 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:13 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:13 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:13 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:14 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:14 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:14 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:14 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:14 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:14 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:14 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/25 14:16:14 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---

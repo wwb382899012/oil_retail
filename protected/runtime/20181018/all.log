@@ -1,0 +1,248 @@
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.web.filters.CFilterChain] Running filter OrderController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (226)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Application\CacheService.php (27)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisCache.php (42)
+2018/10/18 14:29:24 [trace] [system.caching.CRedisCache] Serving "_admin_" from cache
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (72)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (48)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Application\CacheService.php (61)
+2018/10/18 14:29:24 [trace] [system.caching.CRedisCache] Deleting "oil_retail_app\ddd\Admin\Repository\Right\UserRightRepository13" from cache
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (50)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Application\CacheService.php (61)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisCache.php (97)
+2018/10/18 14:29:24 [trace] [system.db.ar.CActiveRecord] SystemUserRight.findByPk()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (113)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Application\Right\AuthorizeService.php (54)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "db" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (113)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Application\Right\AuthorizeService.php (54)
+2018/10/18 14:29:24 [trace] [system.db.CDbConnection] Opening DB connection
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (113)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Application\Right\AuthorizeService.php (54)
+2018/10/18 14:29:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_system_user_right`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (113)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Application\Right\AuthorizeService.php (54)
+2018/10/18 14:29:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_system_user_right`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (113)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Application\Right\AuthorizeService.php (54)
+2018/10/18 14:29:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `t_system_user_right` `t` WHERE `t`.`user_id`=13 LIMIT 1
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (113)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Application\Right\AuthorizeService.php (54)
+2018/10/18 14:29:24 [trace] [system.db.ar.CActiveRecord] lazy loading SystemUserRight.update_user
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (49)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (116)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+2018/10/18 14:29:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_system_user`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (49)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (116)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+2018/10/18 14:29:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_system_user`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (49)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (116)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+2018/10/18 14:29:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT `update_user`.`user_id` AS `t1_c0`, `update_user`.`user_name` AS `t1_c1`, `update_user`.`password` AS `t1_c2`, `update_user`.`role_ids` AS `t1_c3`, `update_user`.`right_codes` AS `t1_c4`, `update_user`.`login_key` AS `t1_c5`, `update_user`.`login_count` AS `t1_c6`, `update_user`.`login_time` AS `t1_c7`, `update_user`.`identity` AS `t1_c8`, `update_user`.`main_role_id` AS `t1_c9`, `update_user`.`weixin` AS `t1_c10`, `update_user`.`phone` AS `t1_c11`, `update_user`.`email` AS `t1_c12`, `update_user`.`status` AS `t1_c13`, `update_user`.`is_right_role` AS `t1_c14`, `update_user`.`corp_ids` AS `t1_c15`, `update_user`.`name` AS `t1_c16`, `update_user`.`remark` AS `t1_c17`, `update_user`.`create_user_id` AS `t1_c18`, `update_user`.`create_time` AS `t1_c19`, `update_user`.`update_user_id` AS `t1_c20`, `update_user`.`update_time` AS `t1_c21` FROM `t_system_user` `update_user`  WHERE (`update_user`.`user_id`=:ypl0)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (49)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (116)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+2018/10/18 14:29:24 [trace] [system.caching.CRedisCache] Serving "_admin_" from cache
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (91)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Application\CacheService.php (41)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisCache.php (83)
+2018/10/18 14:29:24 [info] [application] OrderCommand->pushOrderToFinance in line 73 推送生效订单到财务入参:{"ord_id":"D20181018000003","oil_code":1,"logi_code":"2","customer_id":"28","customer_name":"123123","car_model":"\u4e2d\u578b\u8d27\u8f66(6t<GA\u226414t)","status":3,"plate_info":"xxxx","ord_create_time":"2018\/10\/18 14:24:26","ord_pay_time":"2018\/10\/18 14:24:26","oil_type":"97#\u6c7d\u6cb9","refuel_number":"1.10","retail_price":"700","logi_price":"600","oils_price":"500"} || 接口地址:http://172.16.1.16:11111/interface/receiveOrder
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php (73)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php (331)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "curl" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (1129)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php (74)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php (331)
+2018/10/18 14:29:24 [info] [application] HTTPPOST:url=http://172.16.1.16:11111/interface/receiveOrder params={"ord_id":"D20181018000003","oil_code":1,"logi_code":"2","customer_id":"28","customer_name":"123123","car_model":"\u4e2d\u578b\u8d27\u8f66(6t<GA\u226414t)","status":3,"plate_info":"xxxx","ord_create_time":"2018\/10\/18 14:24:26","ord_pay_time":"2018\/10\/18 14:24:26","oil_type":"97#\u6c7d\u6cb9","refuel_number":"1.10","retail_price":"700","logi_price":"600","oils_price":"500"}
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (1131)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php (74)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php (331)
+2018/10/18 14:29:24 [info] [application] HTTPPOST:url=http://172.16.1.16:11111/interface/receiveOrder params="ord_id=D20181018000003&oil_code=1&logi_code=2&customer_id=28&customer_name=123123&car_model=%E4%B8%AD%E5%9E%8B%E8%B4%A7%E8%BD%A6%286t%3CGA%E2%89%A414t%29&status=3&plate_info=xxxx&ord_create_time=2018%2F10%2F18+14%3A24%3A26&ord_pay_time=2018%2F10%2F18+14%3A24%3A26&oil_type=97%23%E6%B1%BD%E6%B2%B9&refuel_number=1.10&retail_price=700&logi_price=600&oils_price=500"
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (1131)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php (74)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php (331)
+2018/10/18 14:29:24 [info] [application] PostCMD Log, params is {"ord_id":"D20181018000003","oil_code":1,"logi_code":"2","customer_id":"28","customer_name":"123123","car_model":"\u4e2d\u578b\u8d27\u8f66(6t<GA\u226414t)","status":3,"plate_info":"xxxx","ord_create_time":"2018\/10\/18 14:24:26","ord_pay_time":"2018\/10\/18 14:24:26","oil_type":"97#\u6c7d\u6cb9","refuel_number":"1.10","retail_price":"700","logi_price":"600","oils_price":"500"}, and result is {"code":"0","msg":"","data":{"ord_id":"D20181018000003"}}
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (1132)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php (74)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php (331)
+2018/10/18 14:29:24 [info] [application] OrderCommand->pushOrderToFinance in line 75 推送生效订单到财务结果:{"code":"0","msg":"","data":{"ord_id":"D20181018000003"}}
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php (75)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php (331)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.web.filters.CFilterChain] Running filter OrderController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (226)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Application\CacheService.php (27)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisCache.php (42)
+2018/10/18 14:29:24 [trace] [system.caching.CRedisCache] Serving "_admin_" from cache
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (72)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (48)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Application\CacheService.php (61)
+2018/10/18 14:29:24 [trace] [system.caching.CRedisCache] Deleting "oil_retail_app\ddd\Admin\Repository\Right\UserRightRepository13" from cache
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (50)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Application\CacheService.php (61)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisCache.php (97)
+2018/10/18 14:29:24 [trace] [system.db.ar.CActiveRecord] SystemUserRight.findByPk()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (113)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Application\Right\AuthorizeService.php (54)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "db" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (113)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Application\Right\AuthorizeService.php (54)
+2018/10/18 14:29:24 [trace] [system.db.CDbConnection] Opening DB connection
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (113)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Application\Right\AuthorizeService.php (54)
+2018/10/18 14:29:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_system_user_right`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (113)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Application\Right\AuthorizeService.php (54)
+2018/10/18 14:29:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_system_user_right`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (113)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Application\Right\AuthorizeService.php (54)
+2018/10/18 14:29:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `t_system_user_right` `t` WHERE `t`.`user_id`=13 LIMIT 1
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (113)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Application\Right\AuthorizeService.php (54)
+2018/10/18 14:29:24 [trace] [system.db.ar.CActiveRecord] lazy loading SystemUserRight.update_user
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (49)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (116)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+2018/10/18 14:29:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_system_user`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (49)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (116)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+2018/10/18 14:29:24 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_system_user`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (49)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (116)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+2018/10/18 14:29:24 [trace] [system.db.CDbCommand] Querying SQL: SELECT `update_user`.`user_id` AS `t1_c0`, `update_user`.`user_name` AS `t1_c1`, `update_user`.`password` AS `t1_c2`, `update_user`.`role_ids` AS `t1_c3`, `update_user`.`right_codes` AS `t1_c4`, `update_user`.`login_key` AS `t1_c5`, `update_user`.`login_count` AS `t1_c6`, `update_user`.`login_time` AS `t1_c7`, `update_user`.`identity` AS `t1_c8`, `update_user`.`main_role_id` AS `t1_c9`, `update_user`.`weixin` AS `t1_c10`, `update_user`.`phone` AS `t1_c11`, `update_user`.`email` AS `t1_c12`, `update_user`.`status` AS `t1_c13`, `update_user`.`is_right_role` AS `t1_c14`, `update_user`.`corp_ids` AS `t1_c15`, `update_user`.`name` AS `t1_c16`, `update_user`.`remark` AS `t1_c17`, `update_user`.`create_user_id` AS `t1_c18`, `update_user`.`create_time` AS `t1_c19`, `update_user`.`update_user_id` AS `t1_c20`, `update_user`.`update_time` AS `t1_c21` FROM `t_system_user` `update_user`  WHERE (`update_user`.`user_id`=:ypl0)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (49)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (116)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Admin\Repository\Right\UserRightRepository.php (66)
+2018/10/18 14:29:24 [trace] [system.caching.CRedisCache] Serving "_admin_" from cache
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (91)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Application\CacheService.php (41)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisCache.php (83)
+2018/10/18 14:29:24 [info] [application] OrderCommand->pushOrderToFinance in line 73 推送生效订单到财务入参:{"ord_id":"D20181018000003","oil_code":1,"logi_code":"2","customer_id":"28","customer_name":"123123","car_model":"\u4e2d\u578b\u8d27\u8f66(6t<GA\u226414t)","status":3,"plate_info":"xxxx","ord_create_time":"2018\/10\/18 14:24:26","ord_pay_time":"2018\/10\/18 14:24:26","oil_type":"97#\u6c7d\u6cb9","refuel_number":"1.10","retail_price":"700","logi_price":"600","oils_price":"500"} || 接口地址:http://172.16.1.16:11111/interface/receiveOrder
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php (73)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php (331)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 14:29:24 [trace] [system.CModule] Loading "curl" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (1129)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php (74)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php (331)
+2018/10/18 14:29:24 [info] [application] HTTPPOST:url=http://172.16.1.16:11111/interface/receiveOrder params={"ord_id":"D20181018000003","oil_code":1,"logi_code":"2","customer_id":"28","customer_name":"123123","car_model":"\u4e2d\u578b\u8d27\u8f66(6t<GA\u226414t)","status":3,"plate_info":"xxxx","ord_create_time":"2018\/10\/18 14:24:26","ord_pay_time":"2018\/10\/18 14:24:26","oil_type":"97#\u6c7d\u6cb9","refuel_number":"1.10","retail_price":"700","logi_price":"600","oils_price":"500"}
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (1131)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php (74)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php (331)
+2018/10/18 14:29:24 [info] [application] HTTPPOST:url=http://172.16.1.16:11111/interface/receiveOrder params="ord_id=D20181018000003&oil_code=1&logi_code=2&customer_id=28&customer_name=123123&car_model=%E4%B8%AD%E5%9E%8B%E8%B4%A7%E8%BD%A6%286t%3CGA%E2%89%A414t%29&status=3&plate_info=xxxx&ord_create_time=2018%2F10%2F18+14%3A24%3A26&ord_pay_time=2018%2F10%2F18+14%3A24%3A26&oil_type=97%23%E6%B1%BD%E6%B2%B9&refuel_number=1.10&retail_price=700&logi_price=600&oils_price=500"
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (1131)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php (74)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php (331)
+2018/10/18 14:29:24 [info] [application] PostCMD Log, params is {"ord_id":"D20181018000003","oil_code":1,"logi_code":"2","customer_id":"28","customer_name":"123123","car_model":"\u4e2d\u578b\u8d27\u8f66(6t<GA\u226414t)","status":3,"plate_info":"xxxx","ord_create_time":"2018\/10\/18 14:24:26","ord_pay_time":"2018\/10\/18 14:24:26","oil_type":"97#\u6c7d\u6cb9","refuel_number":"1.10","retail_price":"700","logi_price":"600","oils_price":"500"}, and result is {"code":"0","msg":"","data":{"ord_id":"D20181018000003"}}
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (1132)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php (74)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php (331)
+2018/10/18 14:29:24 [info] [application] OrderCommand->pushOrderToFinance in line 75 推送生效订单到财务结果:{"code":"0","msg":"","data":{"ord_id":"D20181018000003"}}
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php (75)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php (331)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 15:42:10 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 15:42:10 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 15:42:10 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 15:42:10 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 15:42:10 [trace] [system.web.filters.CFilterChain] Running filter OrderController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 15:42:10 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (226)
+2018/10/18 15:42:10 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/10/18 15:42:10 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Application\CacheService.php (27)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisCache.php (42)
+2018/10/18 15:42:10 [trace] [system.caching.CRedisCache] Serving "_admin_" from cache
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (72)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (48)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Application\CacheService.php (61)
+2018/10/18 15:42:10 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 15:42:10 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 15:42:10 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 15:42:10 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 15:42:10 [trace] [system.web.filters.CFilterChain] Running filter OrderController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/18 15:42:10 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (226)
+2018/10/18 15:42:10 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/10/18 15:42:10 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Application\CacheService.php (27)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisCache.php (42)
+2018/10/18 15:42:10 [trace] [system.caching.CRedisCache] Serving "_admin_" from cache
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (72)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Repository\RedisCacheRepository.php (48)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Cache\Application\CacheService.php (61)

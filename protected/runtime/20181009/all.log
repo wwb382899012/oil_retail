@@ -1,0 +1,40 @@
+2018/10/09 09:29:21 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/09 09:29:21 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/09 09:29:21 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/09 09:29:21 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/09 09:29:22 [trace] [system.web.filters.CFilterChain] Running filter LogisticsQuotaController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/09 09:29:22 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (226)
+2018/10/09 09:29:22 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/10/09 09:29:22 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/09 09:29:21 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/09 09:29:21 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/09 09:29:21 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/09 09:29:21 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/09 09:29:22 [trace] [system.web.filters.CFilterChain] Running filter LogisticsQuotaController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/10/09 09:29:22 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (226)
+2018/10/09 09:29:22 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/10/09 09:29:22 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)

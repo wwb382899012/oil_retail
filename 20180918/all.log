@@ -1,0 +1,1267 @@
+2018/09/18 11:20:53 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:20:53 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:20:53 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:20:53 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:20:53 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:20:53 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:20:53 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:20:53 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:20:53 [error] [exception.Error] Error: Call to a member function toDate() on null in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php(41): app\ddd\Logistics\DTO\Vehicle\VehicleDTO->fromEntity(Object(ddd\Logistics\Domain\Vehicle\Vehicle))
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php(162): app\ddd\Logistics\Application\Vehicle\VehicleService->getVehicle('27')
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('detail')
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/vehicle/...')
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=27
+---
+2018/09/18 11:20:53 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:22:23 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:22:23 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:22:23 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:22:23 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:22:23 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:22:23 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:22:23 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:22:23 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:22:25 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:22:25 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:22:25 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:22:25 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:22:25 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:22:25 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:22:25 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:22:25 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:23:22 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:22 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:22 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:22 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:22 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:22 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:23:22 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:23:22 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:23:22 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\BaseModel.php (288)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php (178)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (41)
+2018/09/18 11:23:49 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:49 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:49 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:49 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:49 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:49 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:23:49 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:23:49 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:23:49 [trace] [system.db.ar.CActiveRecord] Vehicle.findByPk()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:49 [trace] [system.CModule] Loading "db" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:49 [trace] [system.db.CDbConnection] Opening DB connection
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_vehicle`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_vehicle`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_logistics_company`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_logistics_company`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_photo_attachment`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_photo_attachment`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`vehicle_id` AS `t0_c0`, `t`.`logistics_id` AS `t0_c1`, `t`.`number` AS `t0_c2`, `t`.`model` AS `t0_c3`, `t`.`optor` AS `t0_c4`, `t`.`capacity` AS `t0_c5`, `t`.`start_date` AS `t0_c6`, `t`.`end_date` AS `t0_c7`, `t`.`remark` AS `t0_c8`, `t`.`status` AS `t0_c9`, `t`.`status_time` AS `t0_c10`, `t`.`effect_time` AS `t0_c11`, `t`.`create_user_id` AS `t0_c12`, `t`.`create_time` AS `t0_c13`, `t`.`update_user_id` AS `t0_c14`, `t`.`update_time` AS `t0_c15`, `logisticsCompany`.`logistics_id` AS `t1_c0`, `logisticsCompany`.`name` AS `t1_c1`, `logisticsCompany`.`out_identity` AS `t1_c2`, `logisticsCompany`.`out_status` AS `t1_c3`, `logisticsCompany`.`tax_code` AS `t1_c4`, `logisticsCompany`.`phone` AS `t1_c5`, `logisticsCompany`.`address` AS `t1_c6`, `logisticsCompany`.`status` AS `t1_c7`, `logisticsCompany`.`status_time` AS `t1_c8`, `logisticsCompany`.`effect_time` AS `t1_c9`, `logisticsCompany`.`remark` AS `t1_c10`, `logisticsCompany`.`create_user_id` AS `t1_c11`, `logisticsCompany`.`create_time` AS `t1_c12`, `logisticsCompany`.`update_user_id` AS `t1_c13`, `logisticsCompany`.`update_time` AS `t1_c14`, `photos`.`id` AS `t2_c0`, `photos`.`base_id` AS `t2_c1`, `photos`.`name` AS `t2_c2`, `photos`.`type` AS `t2_c3`, `photos`.`out_id` AS `t2_c4`, `photos`.`file_path` AS `t2_c5`, `photos`.`file_url` AS `t2_c6`, `photos`.`status` AS `t2_c7`, `photos`.`remark` AS `t2_c8`, `photos`.`create_user_id` AS `t2_c9`, `photos`.`create_time` AS `t2_c10`, `photos`.`update_user_id` AS `t2_c11`, `photos`.`update_time` AS `t2_c12` FROM `t_vehicle` `t`  LEFT OUTER JOIN `t_logistics_company` `logisticsCompany` ON (`t`.`logistics_id`=`logisticsCompany`.`logistics_id`) LEFT OUTER JOIN `t_photo_attachment` `photos` ON (`photos`.`base_id`=`t`.`vehicle_id`) AND (photos.status=1 and photos.type=10) WHERE (`t`.`vehicle_id`=27)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:49 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\BaseModel.php (288)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (41)
+2018/09/18 11:23:50 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:50 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:50 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:50 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:50 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:50 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:23:50 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:23:50 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:23:50 [trace] [system.db.ar.CActiveRecord] Vehicle.findByPk()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:50 [trace] [system.CModule] Loading "db" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:50 [trace] [system.db.CDbConnection] Opening DB connection
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_vehicle`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_vehicle`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_logistics_company`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_logistics_company`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_photo_attachment`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_photo_attachment`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`vehicle_id` AS `t0_c0`, `t`.`logistics_id` AS `t0_c1`, `t`.`number` AS `t0_c2`, `t`.`model` AS `t0_c3`, `t`.`optor` AS `t0_c4`, `t`.`capacity` AS `t0_c5`, `t`.`start_date` AS `t0_c6`, `t`.`end_date` AS `t0_c7`, `t`.`remark` AS `t0_c8`, `t`.`status` AS `t0_c9`, `t`.`status_time` AS `t0_c10`, `t`.`effect_time` AS `t0_c11`, `t`.`create_user_id` AS `t0_c12`, `t`.`create_time` AS `t0_c13`, `t`.`update_user_id` AS `t0_c14`, `t`.`update_time` AS `t0_c15`, `logisticsCompany`.`logistics_id` AS `t1_c0`, `logisticsCompany`.`name` AS `t1_c1`, `logisticsCompany`.`out_identity` AS `t1_c2`, `logisticsCompany`.`out_status` AS `t1_c3`, `logisticsCompany`.`tax_code` AS `t1_c4`, `logisticsCompany`.`phone` AS `t1_c5`, `logisticsCompany`.`address` AS `t1_c6`, `logisticsCompany`.`status` AS `t1_c7`, `logisticsCompany`.`status_time` AS `t1_c8`, `logisticsCompany`.`effect_time` AS `t1_c9`, `logisticsCompany`.`remark` AS `t1_c10`, `logisticsCompany`.`create_user_id` AS `t1_c11`, `logisticsCompany`.`create_time` AS `t1_c12`, `logisticsCompany`.`update_user_id` AS `t1_c13`, `logisticsCompany`.`update_time` AS `t1_c14`, `photos`.`id` AS `t2_c0`, `photos`.`base_id` AS `t2_c1`, `photos`.`name` AS `t2_c2`, `photos`.`type` AS `t2_c3`, `photos`.`out_id` AS `t2_c4`, `photos`.`file_path` AS `t2_c5`, `photos`.`file_url` AS `t2_c6`, `photos`.`status` AS `t2_c7`, `photos`.`remark` AS `t2_c8`, `photos`.`create_user_id` AS `t2_c9`, `photos`.`create_time` AS `t2_c10`, `photos`.`update_user_id` AS `t2_c11`, `photos`.`update_time` AS `t2_c12` FROM `t_vehicle` `t`  LEFT OUTER JOIN `t_logistics_company` `logisticsCompany` ON (`t`.`logistics_id`=`logisticsCompany`.`logistics_id`) LEFT OUTER JOIN `t_photo_attachment` `photos` ON (`photos`.`base_id`=`t`.`vehicle_id`) AND (photos.status=1 and photos.type=10) WHERE (`t`.`vehicle_id`=27)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:50 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\BaseModel.php (288)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (41)
+2018/09/18 11:23:56 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:56 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:56 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:56 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:56 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:23:56 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:23:56 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:23:56 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:23:56 [trace] [system.db.ar.CActiveRecord] Vehicle.findByPk()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:56 [trace] [system.CModule] Loading "db" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:56 [trace] [system.db.CDbConnection] Opening DB connection
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_vehicle`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_vehicle`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_logistics_company`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_logistics_company`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_photo_attachment`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_photo_attachment`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`vehicle_id` AS `t0_c0`, `t`.`logistics_id` AS `t0_c1`, `t`.`number` AS `t0_c2`, `t`.`model` AS `t0_c3`, `t`.`optor` AS `t0_c4`, `t`.`capacity` AS `t0_c5`, `t`.`start_date` AS `t0_c6`, `t`.`end_date` AS `t0_c7`, `t`.`remark` AS `t0_c8`, `t`.`status` AS `t0_c9`, `t`.`status_time` AS `t0_c10`, `t`.`effect_time` AS `t0_c11`, `t`.`create_user_id` AS `t0_c12`, `t`.`create_time` AS `t0_c13`, `t`.`update_user_id` AS `t0_c14`, `t`.`update_time` AS `t0_c15`, `logisticsCompany`.`logistics_id` AS `t1_c0`, `logisticsCompany`.`name` AS `t1_c1`, `logisticsCompany`.`out_identity` AS `t1_c2`, `logisticsCompany`.`out_status` AS `t1_c3`, `logisticsCompany`.`tax_code` AS `t1_c4`, `logisticsCompany`.`phone` AS `t1_c5`, `logisticsCompany`.`address` AS `t1_c6`, `logisticsCompany`.`status` AS `t1_c7`, `logisticsCompany`.`status_time` AS `t1_c8`, `logisticsCompany`.`effect_time` AS `t1_c9`, `logisticsCompany`.`remark` AS `t1_c10`, `logisticsCompany`.`create_user_id` AS `t1_c11`, `logisticsCompany`.`create_time` AS `t1_c12`, `logisticsCompany`.`update_user_id` AS `t1_c13`, `logisticsCompany`.`update_time` AS `t1_c14`, `photos`.`id` AS `t2_c0`, `photos`.`base_id` AS `t2_c1`, `photos`.`name` AS `t2_c2`, `photos`.`type` AS `t2_c3`, `photos`.`out_id` AS `t2_c4`, `photos`.`file_path` AS `t2_c5`, `photos`.`file_url` AS `t2_c6`, `photos`.`status` AS `t2_c7`, `photos`.`remark` AS `t2_c8`, `photos`.`create_user_id` AS `t2_c9`, `photos`.`create_time` AS `t2_c10`, `photos`.`update_user_id` AS `t2_c11`, `photos`.`update_time` AS `t2_c12` FROM `t_vehicle` `t`  LEFT OUTER JOIN `t_logistics_company` `logisticsCompany` ON (`t`.`logistics_id`=`logisticsCompany`.`logistics_id`) LEFT OUTER JOIN `t_photo_attachment` `photos` ON (`photos`.`base_id`=`t`.`vehicle_id`) AND (photos.status=1 and photos.type=10) WHERE (`t`.`vehicle_id`=27)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:23:56 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\BaseModel.php (288)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php (177)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (41)
+2018/09/18 11:25:09 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:25:09 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:25:09 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:25:09 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:25:09 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:25:09 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:25:09 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:25:09 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:25:09 [trace] [system.db.ar.CActiveRecord] Vehicle.findByPk()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:09 [trace] [system.CModule] Loading "db" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:09 [trace] [system.db.CDbConnection] Opening DB connection
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_vehicle`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_vehicle`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_logistics_company`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_logistics_company`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_photo_attachment`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_photo_attachment`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`vehicle_id` AS `t0_c0`, `t`.`logistics_id` AS `t0_c1`, `t`.`number` AS `t0_c2`, `t`.`model` AS `t0_c3`, `t`.`optor` AS `t0_c4`, `t`.`capacity` AS `t0_c5`, `t`.`start_date` AS `t0_c6`, `t`.`end_date` AS `t0_c7`, `t`.`remark` AS `t0_c8`, `t`.`status` AS `t0_c9`, `t`.`status_time` AS `t0_c10`, `t`.`effect_time` AS `t0_c11`, `t`.`create_user_id` AS `t0_c12`, `t`.`create_time` AS `t0_c13`, `t`.`update_user_id` AS `t0_c14`, `t`.`update_time` AS `t0_c15`, `logisticsCompany`.`logistics_id` AS `t1_c0`, `logisticsCompany`.`name` AS `t1_c1`, `logisticsCompany`.`out_identity` AS `t1_c2`, `logisticsCompany`.`out_status` AS `t1_c3`, `logisticsCompany`.`tax_code` AS `t1_c4`, `logisticsCompany`.`phone` AS `t1_c5`, `logisticsCompany`.`address` AS `t1_c6`, `logisticsCompany`.`status` AS `t1_c7`, `logisticsCompany`.`status_time` AS `t1_c8`, `logisticsCompany`.`effect_time` AS `t1_c9`, `logisticsCompany`.`remark` AS `t1_c10`, `logisticsCompany`.`create_user_id` AS `t1_c11`, `logisticsCompany`.`create_time` AS `t1_c12`, `logisticsCompany`.`update_user_id` AS `t1_c13`, `logisticsCompany`.`update_time` AS `t1_c14`, `photos`.`id` AS `t2_c0`, `photos`.`base_id` AS `t2_c1`, `photos`.`name` AS `t2_c2`, `photos`.`type` AS `t2_c3`, `photos`.`out_id` AS `t2_c4`, `photos`.`file_path` AS `t2_c5`, `photos`.`file_url` AS `t2_c6`, `photos`.`status` AS `t2_c7`, `photos`.`remark` AS `t2_c8`, `photos`.`create_user_id` AS `t2_c9`, `photos`.`create_time` AS `t2_c10`, `photos`.`update_user_id` AS `t2_c11`, `photos`.`update_time` AS `t2_c12` FROM `t_vehicle` `t`  LEFT OUTER JOIN `t_logistics_company` `logisticsCompany` ON (`t`.`logistics_id`=`logisticsCompany`.`logistics_id`) LEFT OUTER JOIN `t_photo_attachment` `photos` ON (`photos`.`base_id`=`t`.`vehicle_id`) AND (photos.status=1 and photos.type=10) WHERE (`t`.`vehicle_id`=27)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:34 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:25:34 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:25:34 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:25:34 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:25:34 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:25:34 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:25:34 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:25:34 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:25:35 [trace] [system.db.ar.CActiveRecord] Vehicle.findByPk()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:35 [trace] [system.CModule] Loading "db" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:35 [trace] [system.db.CDbConnection] Opening DB connection
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_vehicle`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_vehicle`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_logistics_company`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_logistics_company`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_photo_attachment`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_photo_attachment`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:25:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`vehicle_id` AS `t0_c0`, `t`.`logistics_id` AS `t0_c1`, `t`.`number` AS `t0_c2`, `t`.`model` AS `t0_c3`, `t`.`optor` AS `t0_c4`, `t`.`capacity` AS `t0_c5`, `t`.`start_date` AS `t0_c6`, `t`.`end_date` AS `t0_c7`, `t`.`remark` AS `t0_c8`, `t`.`status` AS `t0_c9`, `t`.`status_time` AS `t0_c10`, `t`.`effect_time` AS `t0_c11`, `t`.`create_user_id` AS `t0_c12`, `t`.`create_time` AS `t0_c13`, `t`.`update_user_id` AS `t0_c14`, `t`.`update_time` AS `t0_c15`, `logisticsCompany`.`logistics_id` AS `t1_c0`, `logisticsCompany`.`name` AS `t1_c1`, `logisticsCompany`.`out_identity` AS `t1_c2`, `logisticsCompany`.`out_status` AS `t1_c3`, `logisticsCompany`.`tax_code` AS `t1_c4`, `logisticsCompany`.`phone` AS `t1_c5`, `logisticsCompany`.`address` AS `t1_c6`, `logisticsCompany`.`status` AS `t1_c7`, `logisticsCompany`.`status_time` AS `t1_c8`, `logisticsCompany`.`effect_time` AS `t1_c9`, `logisticsCompany`.`remark` AS `t1_c10`, `logisticsCompany`.`create_user_id` AS `t1_c11`, `logisticsCompany`.`create_time` AS `t1_c12`, `logisticsCompany`.`update_user_id` AS `t1_c13`, `logisticsCompany`.`update_time` AS `t1_c14`, `photos`.`id` AS `t2_c0`, `photos`.`base_id` AS `t2_c1`, `photos`.`name` AS `t2_c2`, `photos`.`type` AS `t2_c3`, `photos`.`out_id` AS `t2_c4`, `photos`.`file_path` AS `t2_c5`, `photos`.`file_url` AS `t2_c6`, `photos`.`status` AS `t2_c7`, `photos`.`remark` AS `t2_c8`, `photos`.`create_user_id` AS `t2_c9`, `photos`.`create_time` AS `t2_c10`, `photos`.`update_user_id` AS `t2_c11`, `photos`.`update_time` AS `t2_c12` FROM `t_vehicle` `t`  LEFT OUTER JOIN `t_logistics_company` `logisticsCompany` ON (`t`.`logistics_id`=`logisticsCompany`.`logistics_id`) LEFT OUTER JOIN `t_photo_attachment` `photos` ON (`photos`.`base_id`=`t`.`vehicle_id`) AND (photos.status=1 and photos.type=10) WHERE (`t`.`vehicle_id`=27)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (108)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php (36)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:27:44 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:27:45 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:45 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:45 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:45 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:45 [trace] [system.web.filters.CFilterChain] Running filter VehicleController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:27:45 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:27:45 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:27:45 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php (60)
+2018/09/18 11:28:30 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:28:30 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:28:30 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:28:30 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:28:30 [trace] [system.web.filters.CFilterChain] Running filter DriverController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:28:30 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:28:30 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:29:04 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:29:04 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:29:04 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:29:04 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:29:04 [trace] [system.web.filters.CFilterChain] Running filter DriverController.filteraccessControl()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:29:04 [trace] [system.CModule] Loading "user" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (222)
+2018/09/18 11:29:04 [trace] [system.CModule] Loading "session" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\WebUser.php (26)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\UserUtility.php (31)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (247)
+2018/09/18 11:29:04 [trace] [system.CModule] Loading "redis" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (369)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\RedisHashCache.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (60)
+2018/09/18 11:29:04 [trace] [system.db.ar.CActiveRecord] Driver.find()
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.CModule] Loading "db" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.db.CDbConnection] Opening DB connection
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_driver`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_driver`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_logistics_company`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_logistics_company`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_vehicle`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_vehicle`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_photo_attachment`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_photo_attachment`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `t_driver_vehicle_relation`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `t_driver_vehicle_relation`
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`driver_id` AS `t0_c0`, `t`.`customer_id` AS `t0_c1`, `t`.`name` AS `t0_c2`, `t`.`password` AS `t0_c3`, `t`.`logistics_id` AS `t0_c4`, `t`.`phone` AS `t0_c5`, `t`.`remark` AS `t0_c6`, `t`.`status` AS `t0_c7`, `t`.`status_time` AS `t0_c8`, `t`.`effect_time` AS `t0_c9`, `t`.`create_user_id` AS `t0_c10`, `t`.`create_time` AS `t0_c11`, `t`.`update_user_id` AS `t0_c12`, `t`.`update_time` AS `t0_c13`, `logisticsCompany`.`logistics_id` AS `t1_c0`, `logisticsCompany`.`name` AS `t1_c1`, `logisticsCompany`.`out_identity` AS `t1_c2`, `logisticsCompany`.`out_status` AS `t1_c3`, `logisticsCompany`.`tax_code` AS `t1_c4`, `logisticsCompany`.`phone` AS `t1_c5`, `logisticsCompany`.`address` AS `t1_c6`, `logisticsCompany`.`status` AS `t1_c7`, `logisticsCompany`.`status_time` AS `t1_c8`, `logisticsCompany`.`effect_time` AS `t1_c9`, `logisticsCompany`.`remark` AS `t1_c10`, `logisticsCompany`.`create_user_id` AS `t1_c11`, `logisticsCompany`.`create_time` AS `t1_c12`, `logisticsCompany`.`update_user_id` AS `t1_c13`, `logisticsCompany`.`update_time` AS `t1_c14`, `vehicles`.`vehicle_id` AS `t2_c0`, `vehicles`.`logistics_id` AS `t2_c1`, `vehicles`.`number` AS `t2_c2`, `vehicles`.`model` AS `t2_c3`, `vehicles`.`optor` AS `t2_c4`, `vehicles`.`capacity` AS `t2_c5`, `vehicles`.`start_date` AS `t2_c6`, `vehicles`.`end_date` AS `t2_c7`, `vehicles`.`remark` AS `t2_c8`, `vehicles`.`status` AS `t2_c9`, `vehicles`.`status_time` AS `t2_c10`, `vehicles`.`effect_time` AS `t2_c11`, `vehicles`.`create_user_id` AS `t2_c12`, `vehicles`.`create_time` AS `t2_c13`, `vehicles`.`update_user_id` AS `t2_c14`, `vehicles`.`update_time` AS `t2_c15`, `photos`.`id` AS `t3_c0`, `photos`.`base_id` AS `t3_c1`, `photos`.`name` AS `t3_c2`, `photos`.`type` AS `t3_c3`, `photos`.`out_id` AS `t3_c4`, `photos`.`file_path` AS `t3_c5`, `photos`.`file_url` AS `t3_c6`, `photos`.`status` AS `t3_c7`, `photos`.`remark` AS `t3_c8`, `photos`.`create_user_id` AS `t3_c9`, `photos`.`create_time` AS `t3_c10`, `photos`.`update_user_id` AS `t3_c11`, `photos`.`update_time` AS `t3_c12` FROM `t_driver` `t`  LEFT OUTER JOIN `t_logistics_company` `logisticsCompany` ON (`t`.`logistics_id`=`logisticsCompany`.`logistics_id`) LEFT OUTER JOIN `t_driver_vehicle_relation` `vehicles_vehicles` ON (`t`.`driver_id`=`vehicles_vehicles`.`driver_id`) LEFT OUTER JOIN `t_vehicle` `vehicles` ON (`vehicles`.`vehicle_id`=`vehicles_vehicles`.`vehicle_id`) LEFT OUTER JOIN `t_photo_attachment` `photos` ON (`photos`.`base_id`=`t`.`driver_id`) AND (photos.status=1 and photos.type=1) WHERE (t.customer_id=22)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\Repository\EntityRepository.php (203)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\DriverRepository.php (65)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (38)
+2018/09/18 11:29:04 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Common\BaseModel.php (288)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Driver\DriverDTO.php (123)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Driver\DriverService.php (43)
+2018/09/18 11:37:00 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:37:00 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:37:00 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:37:00 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:37:00 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:37:00 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('LogisticsCompan...')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/Logistic...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/LogisticsCompany/save?logistics_id=1&status=2
+---
+2018/09/18 11:37:00 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:37:32 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:37:32 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:37:32 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:37:32 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:37:32 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:37:32 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('LogisticsCompan...')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/Logistic...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/LogisticsCompany/save
+---
+2018/09/18 11:37:32 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:38:47 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:38:47 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:38:47 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:38:47 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:38:47 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:38:47 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('LogisticsCompan...')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/Logistic...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/LogisticsCompany/save
+---
+2018/09/18 11:38:47 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:39:00 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:00 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:00 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:00 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:00 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:00 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('logisticsCompan...')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/logistic...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/logisticsCompany/save
+---
+2018/09/18 11:39:00 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:39:18 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:18 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:18 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:18 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:18 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:18 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('logisticsCompan...')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/logistic...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/logisticsCompany/save
+---
+2018/09/18 11:39:18 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:39:44 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:44 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:44 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:44 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:44 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:44 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('LogisticsCompan...')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/Logistic...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/LogisticsCompany/list
+---
+2018/09/18 11:39:44 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:39:52 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:52 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:52 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:52 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:52 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:39:52 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:39:52 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:40:01 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:01 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:01 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:01 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:01 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:01 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:40:01 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:40:02 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:02 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:02 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:02 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:02 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:02 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:40:02 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:40:25 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:25 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:25 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:25 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:25 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:25 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:40:25 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:40:58 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:58 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:58 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:58 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:58 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:40:58 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:40:58 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:42:48 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:42:48 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:42:48 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:42:48 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:42:48 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:42:48 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:42:48 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:43:29 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:29 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:29 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:29 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:29 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:29 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:43:29 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:43:29 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:29 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:29 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:29 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:29 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:29 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:43:29 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:43:30 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:30 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:30 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:30 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:30 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:30 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:43:30 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:43:48 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:48 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:48 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:48 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:48 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:48 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:43:48 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:43:48 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:48 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:48 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:48 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:48 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:43:48 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:43:48 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:45:27 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:45:27 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:45:27 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:45:27 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:45:27 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:45:27 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:45:27 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:45:28 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:45:28 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:45:28 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:45:28 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:45:28 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:45:28 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:45:28 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:50:00 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:00 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:00 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:00 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:00 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:00 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:50:00 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:50:00 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:00 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:00 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:00 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:00 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:00 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:50:00 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:50:01 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:01 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:01 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:01 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:01 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:01 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:50:01 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:50:19 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:19 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:19 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:19 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:19 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:19 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:50:19 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:50:20 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:20 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:20 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:20 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:20 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:20 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:50:20 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:50:21 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:21 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:21 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:21 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:21 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:21 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:50:21 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:50:30 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:30 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:30 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:30 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:30 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:30 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:50:30 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:50:31 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:31 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:31 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:31 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:31 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:31 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:50:31 [trace] [system.CModule] Loading "errorHandler" application component
+2018/09/18 11:50:31 [trace] [system.CModule] Loading "log" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:31 [trace] [system.CModule] Loading "request" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:31 [trace] [system.CModule] Loading "urlManager" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:31 [trace] [system.base.CModule] Loading "webAPI" module
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:31 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 11:50:31 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:50:31 [trace] [system.CModule] Loading "errorHandler" application component

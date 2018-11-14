@@ -1,0 +1,696 @@
+2018/09/18 11:51:09 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:51:09 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:51:19 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:51:19 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:51:23 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:51:24 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 11:51:24 [error] [exception.CException] CException: Alias "app.modules.webAPI.WebAPIModule" is invalid. Make sure it points to an existing directory or file. in E:\data\www\framework_php7\ModBase.php:399
+Stack trace:
+#0 E:\data\www\framework_php7\ModBase.php(236): ModBase::import('app.modules.web...', true)
+#1 E:\data\www\framework_php7\base\CModule.php(282): ModBase::createComponent(Array, 'webAPI', NULL, Array)
+#2 E:\data\www\framework_php7\web\CWebApplication.php(337): CModule->getModule('webAPI')
+#3 E:\data\www\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('driver/list/')
+#4 E:\data\www\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/l...')
+#5 E:\data\www\framework_php7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/webAPI/driver/list
+---
+2018/09/18 15:26:37 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:26:37 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:26:39 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:26:39 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:38:11 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:38:11 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:38:12 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:38:12 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:38:52 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:38:52 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:38:54 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:38:54 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:38:54 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:38:54 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:168) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:39:05 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php:92) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 15:39:05 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\VehicleRepository.php:92) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): VehicleController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): VehicleController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): VehicleController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): VehicleController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=28
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php (166)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/18 16:59:07 [error] [exception.CHttpException.404] CHttpException: 系统无法找到请求的 "test" 动作. in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php:486
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(270): CController->missingAction('test')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('test')
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/t...')
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/webAPI/driver/test
+---
+2018/09/18 16:59:07 [error] [exception.CHttpException.404] CHttpException: 系统无法找到请求的 "test" 动作. in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php:486
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(270): CController->missingAction('test')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('test')
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/driver/t...')
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/webAPI/driver/test
+---
+2018/09/18 17:06:43 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/font-awesome-4.4.0/css/font-awesome.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/font-aw...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/font-awesome-4.4.0/css/font-awesome.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:43 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/font-awesome-4.4.0/css/font-awesome.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/font-aw...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/font-awesome-4.4.0/css/font-awesome.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:43 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:43 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:43 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:43 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:43 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:43 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/ionicons-2.0.1/css/ionicons.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/ionicon...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/ionicons-2.0.1/css/ionicons.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/ionicons-2.0.1/css/ionicons.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/ionicon...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/ionicons-2.0.1/css/ionicons.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "icon/font/iconfont.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('icon/font/iconf...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/icon/font/iconfont.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "icon/font/iconfont.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('icon/font/iconf...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/icon/font/iconfont.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/style.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/style.css?key=20180112
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/style.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/style.css?key=20180112
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/09/18 17:06:44 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---

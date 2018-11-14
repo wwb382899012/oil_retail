@@ -1,0 +1,705 @@
+2018/09/17 09:44:26 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\LogisticsCompanyRepository.php:104) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsCompanyController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsCompanyController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsCompanyController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsCompanyController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsCompanyController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsCompany/detail?logistics_id=4
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsCompanyController.php (150)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/17 09:44:28 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Repository\LogisticsCompanyRepository.php:104) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsCompanyController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsCompanyController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsCompanyController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsCompanyController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsCompanyController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsCompany/detail?logistics_id=4
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsCompanyController.php (150)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/17 09:45:28 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\LogisticsCompany\LogisticsCompanyDTO.php:124) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsCompanyController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsCompanyController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsCompanyController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsCompanyController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsCompanyController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsCompany/detail?logistics_id=4
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsCompanyController.php (150)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/17 09:45:30 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\LogisticsCompany\LogisticsCompanyDTO.php:124) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsCompanyController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsCompanyController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsCompanyController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsCompanyController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsCompanyController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsCompany/detail?logistics_id=4
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsCompanyController.php (150)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/17 09:45:31 [error] [php] Cannot modify header information - headers already sent by (output started at E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\LogisticsCompany\LogisticsCompanyDTO.php:124) (E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php:2000)
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsCompanyController->actionDetail()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): LogisticsCompanyController->runAction()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CAccessControlFilter->filter()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): LogisticsCompanyController->filterAccessControl()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): LogisticsCompanyController->runActionWithFilters()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): LogisticsCompanyController->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CWebApplication->run()
+REQUEST_URI=/webAPI/LogisticsCompany/detail?logistics_id=4
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php (2000)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsCompanyController.php (150)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php (17)
+2018/09/17 10:14:22 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "webAPI/logisticsdailyQuota"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/logistic...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/webAPI/logisticsdailyQuota
+---
+2018/09/17 10:26:59 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.credit_quota' in 'where clause'. The SQL statement executed was: select * from (SELECT  count(*) as total
+                FROM t_logistics_quota a
+                     left join t_logistics_company b on a.logistics_id = b.logistics_id
+
+                 where 1=1 ORDER BY a.id DESC )A where A.credit_quota<=0.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (328)
+2018/09/17 10:26:59 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'A.credit_quota' in 'where clause'. The SQL statement executed was: select * from (SELECT  count(*) as total
+                FROM t_logistics_quota a
+                     left join t_logistics_company b on a.logistics_id = b.logistics_id
+
+                 where 1=1 ORDER BY a.id DESC )A where A.credit_quota<=0 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('select * from (...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(328): Utility::query('select * from (...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('select * from (...', '\r\n             ...', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaController.php(106): Controller->getPageData('select * from (...', '\r\n             ...')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/logistic...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/logisticsQuota/list
+---
+2018/09/17 10:32:09 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=1 ORDER BY a.id DESC' at line 6. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_logistics_quota a
+                     left join t_logistics_company b on a.logistics_id = b.logistics_id
+                     left join t_logistics_credit_quota c on a.logistics_id = c.logistics_id and c.start_date<='date' and c.end_date>'date' order by id desc
+
+                 where 1=1 ORDER BY a.id DESC.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (328)
+2018/09/17 10:32:09 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=1 ORDER BY a.id DESC' at line 6. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_logistics_quota a
+                     left join t_logistics_company b on a.logistics_id = b.logistics_id
+                     left join t_logistics_credit_quota c on a.logistics_id = c.logistics_id and c.start_date<='date' and c.end_date>'date' order by id desc
+
+                 where 1=1 ORDER BY a.id DESC in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('SELECT  count(*...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(328): Utility::query('SELECT  count(*...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('SELECT  {col}\r\n...', '\r\n             ...', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaController.php(102): Controller->getPageData('SELECT  {col}\r\n...', '\r\n             ...')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/logistic...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/logisticsQuota/list
+---
+2018/09/17 10:35:58 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:35:58 and c.end_date>2018_09-17 10:35:58
+
+                 where 1=1 ORDER ' at line 4. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_logistics_quota a
+                     left join t_logistics_company b on a.logistics_id = b.logistics_id
+                     left join t_logistics_credit_quota c on a.logistics_id = c.logistics_id and c.start_date<=2018_09-17 10:35:58 and c.end_date>2018_09-17 10:35:58
+
+                 where 1=1 ORDER BY a.id DESC.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (328)
+2018/09/17 10:35:58 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10:35:58 and c.end_date>2018_09-17 10:35:58
+
+                 where 1=1 ORDER ' at line 4. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_logistics_quota a
+                     left join t_logistics_company b on a.logistics_id = b.logistics_id
+                     left join t_logistics_credit_quota c on a.logistics_id = c.logistics_id and c.start_date<=2018_09-17 10:35:58 and c.end_date>2018_09-17 10:35:58
+
+                 where 1=1 ORDER BY a.id DESC in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('SELECT  count(*...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(328): Utility::query('SELECT  count(*...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('SELECT  {col}\r\n...', '\r\n             ...', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaController.php(102): Controller->getPageData('SELECT  {col}\r\n...', '\r\n             ...')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/logistic...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/logisticsQuota/list
+---
+2018/09/17 10:36:08 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2018_09' in 'on clause'. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_logistics_quota a
+                     left join t_logistics_company b on a.logistics_id = b.logistics_id
+                     left join t_logistics_credit_quota c on a.logistics_id = c.logistics_id and c.start_date<=2018_09-17 and c.end_date>2018_09-17
+
+                 where 1=1 ORDER BY a.id DESC.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (328)
+2018/09/17 10:36:08 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column '2018_09' in 'on clause'. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_logistics_quota a
+                     left join t_logistics_company b on a.logistics_id = b.logistics_id
+                     left join t_logistics_credit_quota c on a.logistics_id = c.logistics_id and c.start_date<=2018_09-17 and c.end_date>2018_09-17
+
+                 where 1=1 ORDER BY a.id DESC in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('SELECT  count(*...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(328): Utility::query('SELECT  count(*...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('SELECT  {col}\r\n...', '\r\n             ...', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaController.php(102): Controller->getPageData('SELECT  {col}\r\n...', '\r\n             ...')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/logistic...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/logisticsQuota/list
+---
+2018/09/17 11:18:15 [error] [exception.Error] Error: Call to undefined function unsset() in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaController.php:269
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsQuotaController->actionExport()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('export')
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/logistic...')
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#12 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/webAPI/logisticsQuota/export
+---
+2018/09/17 15:39:32 [error] [exception.Error] Error: Call to a member function format() on null in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\DTO\Vehicle\VehicleDTO.php:167
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\ddd\Logistics\Application\Vehicle\VehicleService.php(41): app\ddd\Logistics\DTO\Vehicle\VehicleDTO->fromEntity(Object(ddd\Logistics\Domain\Vehicle\Vehicle))
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php(163): app\ddd\Logistics\Application\Vehicle\VehicleService->getVehicle('26')
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionDetail()
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('detail')
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/vehicle/...')
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/webAPI/vehicle/detail?vehicle_id=26
+---
+2018/09/17 16:10:48 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by a.vehicle_id ORDER BY a.vehicle_id DESC' at line 6. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+                 where 1=1group by a.vehicle_id ORDER BY a.vehicle_id DESC.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (328)
+2018/09/17 16:10:48 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by a.vehicle_id ORDER BY a.vehicle_id DESC' at line 6. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+                 where 1=1group by a.vehicle_id ORDER BY a.vehicle_id DESC in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('SELECT  count(*...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(328): Utility::query('SELECT  count(*...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('SELECT  {col}\r\n...', 'a.vehicle_id,a....', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php(89): Controller->getPageData('SELECT  {col}\r\n...', 'a.vehicle_id,a....')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/vehicle/...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/vehicle/list
+---
+2018/09/17 16:11:04 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=1 ORDER BY a.vehicle_id DESC' at line 7. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+                     group by a.vehicle_id
+                 where 1=1 ORDER BY a.vehicle_id DESC.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (328)
+2018/09/17 16:11:04 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=1 ORDER BY a.vehicle_id DESC' at line 7. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+                     group by a.vehicle_id
+                 where 1=1 ORDER BY a.vehicle_id DESC in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('SELECT  count(*...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(328): Utility::query('SELECT  count(*...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('SELECT  {col}\r\n...', 'a.vehicle_id,a....', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php(90): Controller->getPageData('SELECT  {col}\r\n...', 'a.vehicle_id,a....')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/vehicle/...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/vehicle/list
+---
+2018/09/17 16:11:19 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=1 ORDER BY a.vehicle_id DESC' at line 7. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+               group by a.vehicle_id
+                 where 1=1 ORDER BY a.vehicle_id DESC.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (328)
+2018/09/17 16:11:19 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=1 ORDER BY a.vehicle_id DESC' at line 7. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+               group by a.vehicle_id
+                 where 1=1 ORDER BY a.vehicle_id DESC in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('SELECT  count(*...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(328): Utility::query('SELECT  count(*...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('SELECT  {col}\r\n...', 'a.vehicle_id,a....', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php(90): Controller->getPageData('SELECT  {col}\r\n...', 'a.vehicle_id,a....')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/vehicle/...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/vehicle/list
+---
+2018/09/17 16:11:51 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by a.vehicle_id' at line 7. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+
+                 where 1=1 ORDER BY a.vehicle_id DESC  group by a.vehicle_id.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (328)
+2018/09/17 16:11:51 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by a.vehicle_id' at line 7. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+
+                 where 1=1 ORDER BY a.vehicle_id DESC  group by a.vehicle_id in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('SELECT  count(*...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(328): Utility::query('SELECT  count(*...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('SELECT  {col}\r\n...', 'a.vehicle_id,a....', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php(90): Controller->getPageData('SELECT  {col}\r\n...', 'a.vehicle_id,a....')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/vehicle/...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/vehicle/list
+---
+2018/09/17 16:12:01 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=1 ORDER BY a.vehicle_id DESC' at line 7. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+               group by a.vehicle_id
+                 where 1=1 ORDER BY a.vehicle_id DESC.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (328)
+2018/09/17 16:12:01 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 1=1 ORDER BY a.vehicle_id DESC' at line 7. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+               group by a.vehicle_id
+                 where 1=1 ORDER BY a.vehicle_id DESC in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('SELECT  count(*...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(328): Utility::query('SELECT  count(*...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('SELECT  {col}\r\n...', 'a.vehicle_id,a....', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php(90): Controller->getPageData('SELECT  {col}\r\n...', 'a.vehicle_id,a....')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/vehicle/...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/vehicle/list
+---
+2018/09/17 16:39:40 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsQuotaController.php:114
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(338): CWebApplication->createController('list/', Object(WebAPIModule))
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(276): CWebApplication->createController('logisticsQuota/...')
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/logistic...')
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/webAPI/logisticsQuota/list
+---
+2018/09/17 16:46:09 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.drver_id' in 'on clause'. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.drver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+
+                 where 1=1 group by a.vehicle_id ORDER BY a.vehicle_id DESC.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (328)
+2018/09/17 16:46:09 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.drver_id' in 'on clause'. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.drver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+
+                 where 1=1 group by a.vehicle_id ORDER BY a.vehicle_id DESC in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('SELECT  count(*...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(328): Utility::query('SELECT  count(*...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('SELECT  {col}\r\n...', 'a.vehicle_id,a....', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php(90): Controller->getPageData('SELECT  {col}\r\n...', 'a.vehicle_id,a....')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/vehicle/...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/vehicle/list
+---
+2018/09/17 16:55:33 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selectcount(*) as total as total from(SELECT  count(*) as total
+               ' at line 1. The SQL statement executed was: selectcount(*) as total as total from(SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+
+                 where 1=1 group by a.vehicle_id ORDER BY a.vehicle_id DESC)A.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (329)
+2018/09/17 16:55:33 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selectcount(*) as total as total from(SELECT  count(*) as total
+               ' at line 1. The SQL statement executed was: selectcount(*) as total as total from(SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+
+                 where 1=1 group by a.vehicle_id ORDER BY a.vehicle_id DESC)A in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('selectcount(*) ...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(329): Utility::query('selectcount(*) ...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('select{col} as ...', 'a.vehicle_id,a....', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php(90): Controller->getPageData('select{col} as ...', 'a.vehicle_id,a....')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/vehicle/...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/vehicle/list
+---
+2018/09/17 16:55:43 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as total from(SELECT  count(*) as total
+                FROM t_vehicle a
+     ' at line 1. The SQL statement executed was: select count(*) as total as total from(SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+
+                 where 1=1 group by a.vehicle_id ORDER BY a.vehicle_id DESC)A.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (329)
+2018/09/17 16:55:43 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as total from(SELECT  count(*) as total
+                FROM t_vehicle a
+     ' at line 1. The SQL statement executed was: select count(*) as total as total from(SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+
+                 where 1=1 group by a.vehicle_id ORDER BY a.vehicle_id DESC)A in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('select count(*)...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(329): Utility::query('select count(*)...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('select {col} as...', 'a.vehicle_id,a....', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php(90): Controller->getPageData('select {col} as...', 'a.vehicle_id,a....')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/vehicle/...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/vehicle/list
+---
+2018/09/17 16:56:13 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.vehicle_id' in 'field list'. The SQL statement executed was: select a.vehicle_id,a.number,a.model,a.capacity,d.name logistics_name from(SELECT  a.vehicle_id,a.number,a.model,a.capacity,d.name logistics_name
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+
+                 where 1=1 group by a.vehicle_id ORDER BY a.vehicle_id DESC)A limit 0,10.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (361)
+2018/09/17 16:56:13 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.vehicle_id' in 'field list'. The SQL statement executed was: select a.vehicle_id,a.number,a.model,a.capacity,d.name logistics_name from(SELECT  a.vehicle_id,a.number,a.model,a.capacity,d.name logistics_name
+                FROM t_vehicle a
+                     left join t_driver_vehicle_relation b on a.vehicle_id = b.vehicle_id
+                     left join t_driver c on b.driver_id=c.driver_id
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+
+                 where 1=1 group by a.vehicle_id ORDER BY a.vehicle_id DESC)A limit 0,10 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('select a.vehicl...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(361): Utility::query('select a.vehicl...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('select {col} fr...', 'a.vehicle_id,a....', 1, 10, '14', 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php(90): Controller->getPageData('select {col} fr...', 'a.vehicle_id,a....')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/vehicle/...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/vehicle/list
+---
+2018/09/17 17:31:05 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.logistics_id' in 'on clause'. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+
+                 where 1=1 group by a.vehicle_id ORDER BY a.vehicle_id DESC.
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (69)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php (60)
+in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php (328)
+2018/09/17 17:31:05 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.logistics_id' in 'on clause'. The SQL statement executed was: SELECT  count(*) as total
+                FROM t_vehicle a
+                     left join t_logistics_company d on c.logistics_id=d.logistics_id
+
+                 where 1=1 group by a.vehicle_id ORDER BY a.vehicle_id DESC in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php:580
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\db\CDbCommand.php(414): CDbCommand->queryInternal('', 0, Array)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(69): CDbCommand->query(Array)
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Utility.php(60): DbUtility::query('SELECT  count(*...', 0, Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\DbUtility.php(328): Utility::query('SELECT  count(*...', 0)
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\components\Controller.php(371): DbUtility::getTableData('SELECT  {col}\r\n...', 'a.vehicle_id,a....', 1, 10, 0, 0)
+#5 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\VehicleController.php(88): Controller->getPageData('SELECT  {col}\r\n...', 'a.vehicle_id,a....')
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): VehicleController->actionList()
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#14 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('list')
+#16 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/vehicle/...')
+#17 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#18 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/webAPI/vehicle/list
+---

@@ -1,0 +1,504 @@
+2018/10/16 10:07:02 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/font-awesome-4.4.0/css/font-awesome.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/font-aw...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/font-awesome-4.4.0/css/font-awesome.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:02 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/font-awesome-4.4.0/css/font-awesome.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/font-aw...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/font-awesome-4.4.0/css/font-awesome.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/ionicons-2.0.1/css/ionicons.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/ionicon...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/ionicons-2.0.1/css/ionicons.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/ionicons-2.0.1/css/ionicons.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/ionicon...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/ionicons-2.0.1/css/ionicons.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "icon/font/iconfont.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('icon/font/iconf...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/icon/font/iconfont.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "icon/font/iconfont.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('icon/font/iconf...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/icon/font/iconfont.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/style.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/style.css?key=20180112
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:03 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/style.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/style.css?key=20180112
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/datetimepicker/css/bootstrap-datetimepicker.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/datetim...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/bootstrap-select/bootstrap-select.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-s...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-select/bootstrap-select.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "css/tokenfield/bootstrap-tokenfield.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('css/tokenfield/...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/tokenfield/bootstrap-tokenfield.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.js"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.js
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:04 [error] [exception.CHttpException.404] CHttpException: 无法解析请求 "plugins/dataTables/datatables.min.css"。 in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php:286
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('plugins/dataTab...')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/plugins/dataTables/datatables.min.css
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:09 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CConsoleCommand::__construct(), 0 passed in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsCommonController.php on line 43 and exactly 2 expected in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\console\CConsoleCommand.php:65
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsCommonController.php(43): CConsoleCommand->__construct()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsCommonController->actionTest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('test')
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/Logistic...')
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/webAPI/LogisticsCommon/test
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:07:09 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CConsoleCommand::__construct(), 0 passed in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsCommonController.php on line 43 and exactly 2 expected in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\console\CConsoleCommand.php:65
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsCommonController.php(43): CConsoleCommand->__construct()
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsCommonController->actionTest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('test')
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/Logistic...')
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/webAPI/LogisticsCommon/test
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:37:46 [error] [exception.Exception] Exception: 接口调用失败！ in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php:79
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsCommonController.php(44): OrderCommand->pushOrderToFinance(77)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsCommonController->actionTest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('test')
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/Logistic...')
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/webAPI/LogisticsCommon/test
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 10:37:46 [error] [exception.Exception] Exception: 接口调用失败！ in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php:79
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\LogisticsCommonController.php(44): OrderCommand->pushOrderToFinance(77)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): LogisticsCommonController->actionTest()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('test')
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/Logistic...')
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/webAPI/LogisticsCommon/test
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 14:37:35 [error] [exception.CHttpException.404] CHttpException: 系统无法找到请求的 "test" 动作. in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php:486
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(270): CController->missingAction('test')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('test')
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/Logistic...')
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/webAPI/LogisticsCommon/test
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 14:37:35 [error] [exception.CHttpException.404] CHttpException: 系统无法找到请求的 "test" 动作. in E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php:486
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(270): CController->missingAction('test')
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('test')
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/Logistic...')
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#4 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/webAPI/LogisticsCommon/test
+HTTP_REFERER=http://oil_retail.com/site/login
+---
+2018/10/16 18:07:10 [error] [exception.Exception] Exception: 接口调用失败！ in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php:79
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php(329): OrderCommand->pushOrderToFinance(92)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): OrderController->actionRepairOrder()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('repairOrder')
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/order/re...')
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/webAPI/order/repairOrder
+---
+2018/10/16 18:07:10 [error] [exception.Exception] Exception: 接口调用失败！ in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php:79
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php(329): OrderCommand->pushOrderToFinance(92)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): OrderController->actionRepairOrder()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('repairOrder')
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/order/re...')
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/webAPI/order/repairOrder
+---
+2018/10/16 18:13:17 [error] [exception.Exception] Exception: 接口调用失败！ in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php:79
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php(329): OrderCommand->pushOrderToFinance(92)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): OrderController->actionRepairOrder()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('repairOrder')
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/order/re...')
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/webAPI/order/repairOrder
+---
+2018/10/16 18:13:17 [error] [exception.Exception] Exception: 接口调用失败！ in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php:79
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php(329): OrderCommand->pushOrderToFinance(92)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): OrderController->actionRepairOrder()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('repairOrder')
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/order/re...')
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/webAPI/order/repairOrder
+---
+2018/10/16 18:13:19 [error] [exception.Exception] Exception: 接口调用失败！ in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php:79
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php(329): OrderCommand->pushOrderToFinance(92)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): OrderController->actionRepairOrder()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('repairOrder')
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/order/re...')
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/webAPI/order/repairOrder
+---
+2018/10/16 18:13:19 [error] [exception.Exception] Exception: 接口调用失败！ in E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\commands\OrderCommand.php:79
+Stack trace:
+#0 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\protected\modules\webAPI\controllers\OrderController.php(329): OrderCommand->pushOrderToFinance(92)
+#1 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\actions\CInlineAction.php(49): OrderController->actionRepairOrder()
+#2 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(291): CFilterChain->run()
+#9 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(282): CController->run('repairOrder')
+#11 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\web\CWebApplication.php(141): CWebApplication->runController('webAPI/order/re...')
+#12 E:\phpStudy\PHPTutorial\WWW\oil\framework_php7\base\CApplication.php(186): CWebApplication->processRequest()
+#13 E:\phpStudy\PHPTutorial\WWW\oil\oil_retail\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/webAPI/order/repairOrder
+---
